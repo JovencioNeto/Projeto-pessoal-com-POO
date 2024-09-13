@@ -46,7 +46,7 @@ button{
     color: #fff;
     border-radius: 3px;
     font-weight: bold;
-    transition: all ease 03.s;
+    transition: all ease 0.3s;
 }
 
 button:hover{
@@ -74,10 +74,11 @@ table th,td{
     text-align: left;
 }
 
-table td i{
+table tbody tr td i{
     width: 22px;
+    color: black;
 }
 
-.ceneter{
+.center{
     text-align: center;
 }
