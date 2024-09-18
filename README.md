@@ -11,6 +11,7 @@ para conseguir usurfruir da capacidade que as linguagens de programação tem a 
 - <strong> HTML </strong>: utilizado para marcar e modelar todo o site
 - <strong> CSS </strong>: utilizado para estilizar todo o site
 - <strong> JavaScript </strong>: utilizado para realizar cálculos , atributir funções e utilizar da programação orientado a objetos(POO) para criar instâncias a partir de uma classe construtora e seus métodos.
+- <strong> bootstrap </strong>: utilizdo para aplicação de ícones e imagens sem a necessidade de baixa-las.
 ## Como contribuir
 
 ## Contato
