@@ -2,11 +2,10 @@ class Product {
     constructor() {
         this.arrayProduct = []
         this.editID = null
-        this.initializeId() // Inicializa o ID
+        this.initializeId()
     }
 
     initializeId() {
-        // Se não há produtos, o ID começa em 1
         this.id = this.arrayProduct.length > 0
             ? Math.max(...this.arrayProduct.map(product => product.id)) + 1
             : 1
@@ -64,13 +63,12 @@ class Product {
     }
 
     add_Product(product) {
-        product.id = this.getNextId() // Atribuir o próximo ID disponível
+        product.id = this.getNextId() 
         this.arrayProduct.push(product)
-        this.initializeId() // Atualizar o ID para o próximo produto
+        this.initializeId() 
     }
 
     getNextId() {
-        // Retorna o próximo ID disponível
         return this.id
     }
 

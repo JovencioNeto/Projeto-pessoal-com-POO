@@ -1,3 +1,11 @@
+:root{
+    --blueviolet: blueviolet;
+    --white: #fff;
+    --black: black;
+    --white-border: #ccc;
+}
+
+
 *{
     margin:0;
     padding: 0;
@@ -8,9 +16,9 @@ body{
     font-family: 'Nunito Sans', 'sans-serif';
 }
 header{
-    background-color: blueviolet;
+    background-color: var(--blueviolet);
     padding: 10px;
-    color: #fff;
+    color: var(--white);
     text-align: center;
 }
 
@@ -19,8 +27,8 @@ main{
 }
 
 .card{
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: var(--white);
+    border: 1px solid var(--white-border);
     padding: 20px;
     margin-top: 15px;
     border-radius: 5px;
@@ -33,7 +41,7 @@ main{
 
 input{
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--white-border);
     border-radius: 3px;
     outline: 0;
 }
@@ -42,8 +50,8 @@ button{
     border: 0px;
     padding: 10px;
     outline: 0;
-    background-color: blueviolet;
-    color: #fff;
+    background-color: var(--blueviolet);
+    color: var(--white);
     border-radius: 3px;
     font-weight: bold;
     transition: all ease 0.3s;
@@ -59,7 +67,7 @@ button:hover{
 
 table{
     border-collapse: collapse;
-    border: 1px solid #ccc;
+    border: 1px solid var(--white-border);
     width: 100%;
 }
 
@@ -76,7 +84,7 @@ table th,td{
 
 table tbody tr td i{
     width: 22px;
-    color: black;
+    color: var(--black);
 }
 
 .center{
